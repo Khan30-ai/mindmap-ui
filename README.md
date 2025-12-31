@@ -138,14 +138,17 @@ These decisions were made intentionally to balance UX clarity, functional correc
 
 ## Screenshots
 
-The repository includes screenshots demonstrating:
+### Full Mindmap View
+![Full Mindmap View](./screenshots/01-full-view.png)
 
-- Full mindmap view
-- Hover tooltip interactions
-- Sidebar data display
-- Expanded and collapsed states
+### Hover Interaction & Sidebar
+![Hover Interaction](./screenshots/02-hover-tooltip.png)
 
-*(See the screenshots folder in the repository)*
+### Expanded State
+![Expanded State](./screenshots/03-expanded-state.png)
+
+### Collapsed State
+![Collapsed State](./screenshots/04-collapsed-state.png)
 
 ---
 
