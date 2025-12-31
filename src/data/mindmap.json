@@ -1,0 +1,95 @@
+{
+  "id": "web-dev",
+  "name": "Web Development",
+  "summary": "Building applications for the web using frontend and backend technologies.",
+  "children": [
+    {
+      "id": "frontend",
+      "name": "Frontend",
+      "summary": "Everything the user sees and interacts with in the browser.",
+      "children": [
+        {
+          "id": "html",
+          "name": "HTML",
+          "summary": "Defines the structure of web pages.",
+          "description": "HTML provides semantic structure to content like headings, paragraphs, forms, and links.",
+          "example": "<h1>Hello World</h1>",
+          "keywords": ["tags", "elements", "semantic"]
+        },
+        {
+          "id": "css",
+          "name": "CSS",
+          "summary": "Styles and layouts for web pages.",
+          "description": "CSS controls colors, spacing, responsiveness, and animations.",
+          "example": "display: flex;",
+          "keywords": ["flexbox", "grid", "responsive"]
+        },
+        {
+          "id": "javascript",
+          "name": "JavaScript",
+          "summary": "Adds interactivity and logic to web pages.",
+          "description": "JavaScript allows DOM manipulation, events, and API communication.",
+          "example": "document.querySelector('button')",
+          "keywords": ["events", "DOM", "async"]
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "Backend",
+      "summary": "Server-side logic, databases, and APIs.",
+      "children": [
+        {
+          "id": "nodejs",
+          "name": "Node.js",
+          "summary": "JavaScript runtime for server-side applications.",
+          "description": "Node.js enables scalable backend services using JavaScript.",
+          "example": "app.get('/api', handler)",
+          "keywords": ["express", "api", "server"]
+        },
+        {
+          "id": "database",
+          "name": "Databases",
+          "summary": "Stores and manages application data.",
+          "children": [
+            {
+              "id": "sql",
+              "name": "SQL Databases",
+              "summary": "Relational databases with structured schemas.",
+              "example": "SELECT * FROM users;",
+              "keywords": ["tables", "joins", "relations"]
+            },
+            {
+              "id": "nosql",
+              "name": "NoSQL Databases",
+              "summary": "Flexible, schema-less databases.",
+              "example": "{ name: 'John' }",
+              "keywords": ["mongodb", "documents", "scalable"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "Tools & Workflow",
+      "summary": "Tools used to build, test, and deploy applications.",
+      "children": [
+        {
+          "id": "git",
+          "name": "Git",
+          "summary": "Version control system for tracking code changes.",
+          "example": "git commit -m 'message'",
+          "keywords": ["branches", "merge", "history"]
+        },
+        {
+          "id": "bundlers",
+          "name": "Bundlers",
+          "summary": "Tools that bundle and optimize frontend code.",
+          "example": "Vite / Webpack",
+          "keywords": ["build", "optimize", "dev server"]
+        }
+      ]
+    }
+  ]
+}
