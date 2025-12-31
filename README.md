@@ -162,7 +162,7 @@ A short screen recording demonstrates:
 - Sidebar updates
 - In-app documentation view
 
-**Video Link:** https://drive.google.com/file/d/1uYHfqwG0t0LUEpTVXUBr3MnKG40uxR9r/view?usp=drive_link
+**Video Link:** https://drive.google.com/file/d/1uYHfqwG0t0LUEpTVXUBr3MnKG40uxR9r/view?usp=sharing
 
 ---
 
