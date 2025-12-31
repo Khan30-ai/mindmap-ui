@@ -22,10 +22,11 @@ All of these aspects are addressed in this project.
 
 ### Core:-
 - **React** – Component-based UI development
-- **React Flow** – Graph and node-based visualization
-- **Tailwind CSS** – Utility-first styling for fast and consistent UI
+
 
 ### Supporting Libraries:-
+- **React Flow** – Graph and node-based visualization
+- **Tailwind CSS** – Utility-first styling for fast and consistent UI
 - **react-markdown** – Used to render project documentation inside the UI
 - **remark-gfm** – GitHub-flavored markdown support
 
@@ -84,19 +85,6 @@ A recursive traversal converts hierarchical data into graph nodes while handling
 - Clicking a node expands or collapses its children
 - Smooth visual feedback for interaction clarity
 - **Fit View** button to reset and center the graph
-
----
-
-### 3. Data Display
-
-```text
-| Location      | Information Displayed                                |
-|---------------|------------------------------------------------------|
-| Hover Tooltip | Short summary                                        |
-| Sidebar Panel | Name, description, examples, keywords (if available) |
-```
-The UI handles missing fields gracefully without breaking.
-
 ---
 
 ## Assumptions & Design Decisions
@@ -133,7 +121,6 @@ These decisions were made intentionally to balance UX clarity, functional correc
 - Accessible via the **“Full Documentation”** button in the UI
 - Keeps documentation versioned with the codebase
 - No external downloads or navigation required
-
 ---
 
 ## Screenshots
@@ -149,7 +136,6 @@ These decisions were made intentionally to balance UX clarity, functional correc
 
 ### Collapsed State
 ![Collapsed State](./screenshots/04-collapsed-state.png)
-
 ---
 
 ## Demo Video
@@ -163,7 +149,6 @@ A short screen recording demonstrates:
 - In-app documentation view
 
 **Video Link:** https://youtu.be/AUOXPRWEKWU  (if low quality, please change quality settings)
-
 ---
 
 ## Bonus Features :-
@@ -171,7 +156,6 @@ A short screen recording demonstrates:
 - Edge highlighting on hover
 - Smooth visual transitions
 - In-app documentation rendering
-
 ---
 
 ## Known Limitations:-
@@ -185,17 +169,35 @@ A short screen recording demonstrates:
 ## Project Structure
 ```text
 mindmap-ui/
-├── src/
-│ ├── components/
-│ │ ├── Mindmap.jsx
-│ │ ├── CustomNode.jsx
-│ │ ├── Sidebar.jsx
-│ │ └── Documentation.jsx
-│ ├── data/
-│ │ └── mindmap.json
-│ └── styles/
 ├── public/
-├── README.md
+│   └── README.md                # Used for in-app documentation rendering
+│
+├── src/
+│   ├── components/
+│   │   ├── Mindmap.jsx          # Core mindmap logic & React Flow integration
+│   │   ├── CustomNode.jsx       # Custom node UI + hover tooltip handling
+│   │   ├── Sidebar.jsx          # Right-side Sidebar panel
+│   │   ├── NodeDetails.jsx      # Detailed node information renderer
+│   │   └── Documentation.jsx   # In-app documentation (README renderer)
+│   │
+│   ├── data/
+│   │   └── mindmap.json         # Structured data driving the entire mindmap
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── screenshots/
+│   ├── 01-full-view.png             # Full mindmap view
+│   ├── 02-expanded-state.png        # Expanded state
+│   ├── 03-hover-tooltip.png         # Tooltip summary and Sidebar panel
+│   └── 04-collapsed-state.png       # Collapsed states
+│
+├── README.md                    # Project documentation
+├── package.json
+├── package-lock.json
+└── vite.config.js
+
 ```
 ---
 ## Installation & Running Locally
@@ -225,3 +227,11 @@ mindmap-ui/
     http://localhost:5173  
     ```
     ---
+
+## Author
+
+**Md Arshi Khan**  
+Frontend Development Intern Applicant  
+
+This project was built as part of a frontend internship assignment to demonstrate
+data-driven UI development, interactive visualizations, and clean component architecture.
