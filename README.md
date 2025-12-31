@@ -141,11 +141,11 @@ These decisions were made intentionally to balance UX clarity, functional correc
 ### Full Mindmap View
 ![Full Mindmap View](./screenshots/01-full-view.png)
 
-### Hover Interaction & Sidebar
-![Hover Interaction](./screenshots/02-hover-tooltip.png)
-
 ### Expanded State
-![Expanded State](./screenshots/03-expanded-state.png)
+![Expanded State](./screenshots/02-expanded-state.png)
+
+### Hover Interaction & Sidebar
+![Hover Interaction](./screenshots/03-hover-tooltip.png)
 
 ### Collapsed State
 ![Collapsed State](./screenshots/04-collapsed-state.png)
