@@ -231,7 +231,4 @@ mindmap-ui/
 ## Author
 
 **Md Arshi Khan**  
-Frontend Development Intern Applicant  
-
-This project was built as part of a frontend internship assignment to demonstrate
-data-driven UI development, interactive visualizations, and clean component architecture.
+Full-stack developer
